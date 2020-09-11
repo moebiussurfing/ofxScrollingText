@@ -12,7 +12,7 @@
 
 class ofxScrollingText{
 public:
-    static ofxScrollingText* instance();
+//    static ofxScrollingText* instance();
     void setup(string _fontPath, int _fontSize = 48);
     void update();
     void draw();
@@ -32,13 +32,14 @@ public:
     
     // complete event.
     static ofEvent<void> completeEvent;
-    
-private:
+
+//private:
     ofxScrollingText();
     ~ofxScrollingText();
+
     // private instance
-    static ofxScrollingText* mIns;
-    
+//    static ofxScrollingText* mIns;
+
     ofxTrueTypeFontUC font;
     bool isVisible;
     bool isPlaying;

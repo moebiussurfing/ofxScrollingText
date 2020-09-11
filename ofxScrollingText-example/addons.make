@@ -1,0 +1,2 @@
+ofxScrollingText
+ofxTrueTypeFontUC
